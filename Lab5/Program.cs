@@ -11,23 +11,27 @@ Choices client1 = new()
 {
     DrinkQuantity = 200,
     FirstQuantity = 250,
+    SecondQuantity = 0,
 };
 
 Choices client2 = new()
 {
     DrinkQuantity = 200,
+    FirstQuantity = 0,
     SecondQuantity = 300,
 };
 
+static int ClientTotal(Prices prices, Choices choices)
 {
-    int client_total = client1.DrinkQuantity * menu.Drink + client1.FirstQuantity * menu.First;
-    Console.WriteLine("Итоговая стоимость " + client_total);
+    int client_total = choices.DrinkQuantity * prices.Drink + choices.FirstQuantity * prices.First + choices.SecondQuantity * prices.Second;
+    return client_total;
 }
 
-{
-    int client_total = client2.DrinkQuantity * menu.Drink + client2.SecondQuantity * menu.Second;
-    Console.WriteLine("Итоговая стоимость " + client_total);
-}
+int client1_total = ClientTotal(menu, client1);
+Console.WriteLine("Итоговая стоимость " + client1_total);
+
+int client2_total = ClientTotal(menu, client2);
+Console.WriteLine("Итоговая стоимость " + client2_total);
 
 class Prices
 {
