@@ -7,17 +7,25 @@ Prices menu = new()
     Second = 30,
 };
 
+Choices client1 = new()
 {
-    int client_drink = 200;
-    int client_first = 250;
-    int client_total = client_drink * menu.Drink + client_first * menu.First;
+    DrinkQuantity = 200,
+    FirstQuantity = 250,
+};
+
+Choices client2 = new()
+{
+    DrinkQuantity = 200,
+    SecondQuantity = 300,
+};
+
+{
+    int client_total = client1.DrinkQuantity * menu.Drink + client1.FirstQuantity * menu.First;
     Console.WriteLine("Итоговая стоимость " + client_total);
 }
 
 {
-    int client_drink = 200;
-    int client_second = 300;
-    int client_total = client_drink * menu.Drink + client_second * menu.Second;
+    int client_total = client2.DrinkQuantity * menu.Drink + client2.SecondQuantity * menu.Second;
     Console.WriteLine("Итоговая стоимость " + client_total);
 }
 
@@ -26,4 +34,11 @@ class Prices
     public int Drink;
     public int First;
     public int Second;
+}
+
+class Choices
+{
+    public int DrinkQuantity;
+    public int FirstQuantity;
+    public int SecondQuantity;
 }
