@@ -1,11 +1,29 @@
 ﻿using System;
 
-int client1_drink = 200;
-int client1_first = 250;
-int client1_total = client1_drink * 10 + client1_first * 20;
-Console.WriteLine("Итоговая стоимость " + client1_total);
+Prices menu = new()
+{
+    Drink = 10,
+    First = 20,
+    Second = 30,
+};
 
-int client2_drink = 200;
-int client2_second = 300;
-int client2_total = client2_drink * 10 + client2_second * 30;
-Console.WriteLine("Итоговая стоимость " + client2_total);
+{
+    int client_drink = 200;
+    int client_first = 250;
+    int client_total = client_drink * menu.Drink + client_first * menu.First;
+    Console.WriteLine("Итоговая стоимость " + client_total);
+}
+
+{
+    int client_drink = 200;
+    int client_second = 300;
+    int client_total = client_drink * menu.Drink + client_second * menu.Second;
+    Console.WriteLine("Итоговая стоимость " + client_total);
+}
+
+class Prices
+{
+    public int Drink;
+    public int First;
+    public int Second;
+}
