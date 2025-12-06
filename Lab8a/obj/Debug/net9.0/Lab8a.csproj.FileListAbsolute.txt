@@ -1,0 +1,15 @@
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\bin\Debug\net9.0\Lab8a.exe
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\bin\Debug\net9.0\Lab8a.deps.json
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\bin\Debug\net9.0\Lab8a.runtimeconfig.json
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\bin\Debug\net9.0\Lab8a.dll
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\bin\Debug\net9.0\Lab8a.pdb
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\obj\Debug\net9.0\Lab8a.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\obj\Debug\net9.0\Lab8a.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\obj\Debug\net9.0\Lab8a.AssemblyInfo.cs
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\obj\Debug\net9.0\Lab8a.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\obj\Debug\net9.0\Lab8a.sourcelink.json
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\obj\Debug\net9.0\Lab8a.dll
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\obj\Debug\net9.0\refint\Lab8a.dll
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\obj\Debug\net9.0\Lab8a.pdb
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\obj\Debug\net9.0\Lab8a.genruntimeconfig.cache
+C:\Users\pc\Desktop\ProjectSoft\Lab8a\obj\Debug\net9.0\ref\Lab8a.dll
